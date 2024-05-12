@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #020303;
+    font-family: Arial, sans-serif;
+}
+
+.header{
+    padding: 30px 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-flex{
+    display: flex;
+    align-items: center;
+}
+
+.header-logo{
+    margin-right: 281px;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu-item a{
+    text-decoration: none;
+    color: #fdefd5;
+}
+
+.menu-item a:hover{
+    color: #ffaf18;
+    border-bottom: 1px solid #ffaf18;
+    padding-bottom: 4px;
+}
+
+.menu-item.item-one{
+    margin-right: 58px;
+    text-decoration: none;
+}
+
+.menu-item.item-two{
+    margin-right: 59px;
+}
+
+.menu-item.item-three{
+    margin-right: 54px;
+}
+
+.main{
+    margin-bottom: 125px;
+    margin-top: 135px;
+}
+
+.main-sushi{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-right-sushi-title{
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.222;
+    max-width: 564px;
+    margin-bottom: 81px;
+}
+
+.main-right-sushi-title span{
+    color: #ffaf18;
+}
+
+.main-right-reasons{
+    display: flex;
+    align-items: center;
+    margin-bottom: 99px;
+}
+
+.reason{
+    display: flex;
+    align-items: center;
+}
+
+.reason.fresh-reason{
+    margin-right: 99px;
+}
+
+.main-right-reasons-desc{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    margin-left: 11px;
+}
+
+.button {
+    border-radius: 30px;
+    background-color: #ffaf18;
+    font-style: normal;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(2, 3, 3);
+    font-weight: bold;
+    line-height: 3.438;
+    padding: 23px 54px;
+    width: 224px;
+}
+
+.button:hover {
+    box-shadow: 0 8px 25px 0 #ffaf18;
+}
+
+.main-left-sushi{
+    font-size: 0;
+}
+
+.main-left-sushi img{
+   margin-top: 30px;
+}
+
+.choose{
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
+
+.choose-title{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.571;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.sushi-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sushi-card{
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 24px;
+    width: 282px;
+    display: inline-block;
+}
+
+.sushi-card img{
+    margin-top: 10px;
+}
+
+.sushi-card:hover {
+    box-shadow: 0 0 12px 0 #ffffff;
+}
+
+.sushi-card-title{
+    font-size: 18px;
+    color: rgb(24, 26, 26);
+    font-weight: bold;
+    line-height: 1;
+    padding: 30px 0 15px 0;
+
+}
+
+.sushi-card-desc {
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    line-height: 1.286;
+    max-width: 242px;
+    margin: 0 auto;
+    height: 53px;
+    margin-bottom: 33px;
+}
+
+.button-card{
+    margin-bottom: 30px;
+    font-size: 0;
+    cursor: pointer;
+}
+
+.button-card-action {
+    background-color: rgb(255, 175, 24);
+    width: 242px;
+    font-size: 16px;
+    color: rgb(2, 3, 3);
+    font-weight: bold;
+    line-height: 1;
+    padding: 18px 82px;
+    border-radius: 25px;
+}
+
+.button-card-action:hover {
+    box-shadow: 0 8px 25px 0 #ffaf18;
+}
+
+.sushi-card:first-child{
+    border: 5px solid #ed9b00;
+    width: 272px;
+}
+
+.sushi-card:last-child{
+    border: 5px solid #ed9b00;
+    width: 272px;
+}
+
+.sushi-cooking{
+    margin-top: 120px;
+    margin-bottom: 67px;
+}
+
+.sushi-cooking-parts{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sushi-cooking-right-part h2{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.286;
+    max-width: 386px;
+    margin-bottom: 60px;
+}
+
+.sushi-cooking-right-part p {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    max-width: 384px;
+    margin-bottom: 100px;
+}
+
+.sushi-cooking-right-part h3{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.4;
+    max-width: 386px;
+    margin-bottom: 40px;
+}
+
+.sushi-reads-more{
+    display: flex;
+
+}
+
+.sushi-read-more {
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.sushi-read-more a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.sushi-read-more:visited{
+    background-color: rgb(190, 190, 190);
+}
+
+
+.sushi-read-more:hover {
+    box-shadow: 0 0 12px 0 #ffffff;
+}
+
+.sushi-read-more:active{
+    background-color: rgb(255, 175, 24);
+}
+
+.sushi-read-more.sushi-onigiri img{
+    padding-top: 13px;
+}
+
+.sushi-read-more.sushi-rolls img{
+    padding-top: 11px;
+}
+
+.sushi-read-more.sushi-tuna img{
+    padding-top: 14px;
+}
+
+.sushi-cooking-left-part{
+    align-self: end;
+}
+
+.footer{
+    padding: 30px 0 30px 0;
+    background-color: #000000;
+}
+
+.footer-flex{
+    display: flex;
+    align-items: center;
+}
+
+.footer-description {
+    font-size: 12px;
+    color: rgb(44, 44, 44);
+    line-height: 1.2;
+    margin-left: 390px;
+}
+
